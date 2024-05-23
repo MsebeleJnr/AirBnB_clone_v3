@@ -1,0 +1,43 @@
+flasgger endpoint for GET, DELETE, PUT place object
+GET: returns requested place with id <place_id>
+DELETE: deletes the place object with id <place_id>
+---
+paths:
+  /places/{place_id}:
+tags:
+  - GET, DELETE, PUT places/{place_id}
+get:
+delete:
+put:
+parameters:
+  - name: place_id
+    in: path
+    data: string
+    required: true
+    description: the unique place id of place to update
+  - name: name
+    in: body
+    data: string
+    required: false
+    schema:
+      properties:
+        name:
+          type: string
+          description: text attribute of the place to update
+  - name: description
+    in: body
+    data: string
+    required: false
+    schema:
+      properties:
+        name:
+          type: string
+          description: description of the place
+  - name: number_rooms
+    in: body
+    data: integer
+    required: false
+    schema:
+      properties:
+        name:
+
