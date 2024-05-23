@@ -70,4 +70,15 @@ window.addEventListener('load', function () {
 
       ${place.description}
 
+<<<<<<< HEAD
 
+=======
+      </div>
+
+      </article> <!-- End 1 PLACE Article -->`;
+        $('section.places').append(template);
+      }
+    });
+  });
+});
+>>>>>>> 60667bdd6063028a0127283cb67cd2702eb2ddb6

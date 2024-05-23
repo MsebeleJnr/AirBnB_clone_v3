@@ -4,7 +4,7 @@ The console is the first segment of the AirBnB project at Holberton School that 
 #### Functionalities of this command interpreter:
 * Create a new object (ex: a new User or a new Place)
 * Retrieve an object from a file, a database etc...
-* Do operations on objects (count, compute stats, etc...)
+* Do operations on objects (count, compute stats, etc.)
 * Update attributes of an object
 * Destroy an object
 
@@ -148,6 +148,7 @@ EOF  all  create  destroy  help  quit  show  update
 (hbnb) show BaseModel 7da56403-cc45-4f1c-ad32-bfafeb2bb050
 ** no instance found **
 (hbnb) quit
+<<<<<<< HEAD
 ```
 
 ## Bugs
@@ -160,3 +161,5 @@ Gift Msebele - [Github](https://github.com/msebelejnr)
 Second part of Airbnb: Joann Vuong
 ## License
 Public Domain. No copy write protection. 
+=======
+>>>>>>> f5df82530e87f45dcbcb80da65932aa05800cf10
